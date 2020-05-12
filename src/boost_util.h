@@ -1,6 +1,9 @@
 #ifndef __U_BOOST_UTIL__
 #define __U_BOOST_UTIL__
 
+//Add -DBOOST_LOG_DYN_LINK
+//-lboost_log -lboost_log_setup
+
 #include <boost/log/trivial.hpp>
 #include <boost/log/utility/setup/file.hpp>
 #include <boost/log/utility/setup/console.hpp>
