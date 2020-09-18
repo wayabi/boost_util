@@ -1,8 +1,10 @@
 #ifndef __U_BOOST_UTIL__
 #define __U_BOOST_UTIL__
 
-//Add -DBOOST_LOG_DYN_LINK
-//-lboost_log -lboost_log_setup
+//Add options 
+// -DBOOST_LOG_DYN_LINK -std=c++11
+// -lboost_log -lboost_log_setup -lboost_thread
+// needs c++11 compiler
 
 #include <boost/log/trivial.hpp>
 #include <boost/log/utility/setup/file.hpp>
